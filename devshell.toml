@@ -1,0 +1,15 @@
+[[commands]]
+package = "devshell.cli"
+help = "Per project developer environments"
+[[commands]]
+name = "npx"
+package = "nodejs"
+help = "execute npm package binaries"
+[[commands]]
+name = "npm"
+package = "nodejs"
+help = "node package manager"
+[devshell]
+packages = [
+    "nodejs"
+    ]
